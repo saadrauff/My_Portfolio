@@ -15,11 +15,10 @@ body {
   background-attachment: fixed;
   color: #e1f5f9;
   line-height: 1.6;
-  overflow-x: hidden;
-  min-width: 320px;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  overflow-x: auto;
+  min-width: 1024px;
+  width: 1000px;
+  margin: auto;
 }
 
 header {
@@ -36,8 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
   margin: auto;
 }
 
