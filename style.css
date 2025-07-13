@@ -9,10 +9,16 @@
 }
 
 body {
-  background: linear-gradient(to right top, #0f0c29, #302b63, #24243e);
+  background: #0f0c29;
+  background-image: linear-gradient(to right top, #0f0c29, #302b63, #24243e);
+  background-size: cover;
+  background-attachment: fixed;
   color: #e1f5f9;
   line-height: 1.6;
-  overflow-x: hidden;
+  overflow-x: auto;
+  min-width: 1024px;
+  width: 1000px;
+  margin: auto;
 }
 
 header {
@@ -72,12 +78,11 @@ header {
 /* Hero Section */
 .hero {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   padding: 6rem 2rem;
   gap: 3rem;
-  
 }
 
 .hero-content {
@@ -189,7 +194,7 @@ header {
 /* Skills Grid */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -212,7 +217,7 @@ header {
 /* Projects */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -260,27 +265,17 @@ header {
 
 /* Certificates Gallery */
 .certificates-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   margin-top: 2rem;
 }
 
 .certificates-gallery div {
-  width: 240px;
   background: rgba(255, 255, 255, 0.03);
   padding: 1rem;
   border-radius: 15px;
   text-align: center;
-}
-
-.certificates-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
 }
 
 footer {
