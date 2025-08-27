@@ -204,7 +204,7 @@ header {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -212,7 +212,7 @@ header {
 .skills-grid span {
   background: rgba(255, 255, 255, 0.08);
   padding: 0.8rem;
-  border-radius: 12px;
+  border-radius: 15px;
   font-size: 0.9rem;
   color: #e0f7fa;
   transition: 0.3s;
@@ -227,7 +227,7 @@ header {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -277,7 +277,7 @@ header {
 
 .certificates-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -326,4 +326,3 @@ footer {
     padding: 2.5rem 0.5rem;
   }
 }
-
